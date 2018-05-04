@@ -18,7 +18,7 @@ do
     then
 	last_file=$current_file
 	echo ' <static>'
-	echo '	<duration>300.0</duration>'
+	echo '	<duration>30.0</duration>'
 	echo "	<file>/home/sky_human/BackGrounds/`echo ${last_file}| tr "+" " "`</file>"
 	echo ' </static>'
      else
@@ -28,7 +28,7 @@ do
 	echo "  <to>/home/sky_human/BackGrounds/`echo ${current_file}| tr "+" " "`</to>"
 	echo ' </transition>'
 	echo ' <static>'
-	echo '  <duration>300.0</duration>'
+	echo '  <duration>30.0</duration>'
 	echo "  <file>/home/sky_human/BackGrounds/`echo ${current_file}| tr "+" " "`</file>"
 	echo ' </static>'
 	last_file=$current_file
